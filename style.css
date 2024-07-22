@@ -1,0 +1,731 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+    html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(175, 237, 237);
+    font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    #red{
+        font-size: 10px;
+        color: #f85047;
+        position: absolute;
+        left: 22%;
+        top: 4%;
+    }
+    #yellow{
+        font-size: 10px;
+        color: #febb29;
+        position: absolute;
+        left: 44%;
+        top: 4%;
+    }
+    #green{
+        font-size: 10px;
+        color: #28CA42;
+        position: absolute;
+        left: 66%;
+        top: 4%;
+    }
+    .chatboxmain{
+        height: 80%;
+        width: 60%;
+        background-color: aquamarine;
+        position: absolute;
+        top: 10%;
+        left: 20%;
+    }
+    .first{
+        height: 100%;
+        width: 10%;
+        background-color: #363636;
+        position: relative;
+    }
+    .Message{
+        height: 12%;
+        width: 100%;
+        position: absolute;
+        top: 12%;
+    }
+    .Message:hover{
+        background-color: #667AFF;
+    }
+    .Message > i{
+        font-size: 30px;
+        position: absolute;
+        color: #FFFFFE;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .Calls{
+        height: 12%;
+        width: 100%;
+        position: absolute;
+        top: 24%;
+    }
+    .Calls:hover{
+        background-color: #667AFF;
+    }
+    .Calls > i{
+        font-size: 30px;
+        position: absolute;
+        color: #FFFFFE;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .Contacts{
+        height: 12%;
+        width: 100%;
+        position: absolute;
+        top: 36%;
+    }
+    .Contacts:hover{
+        background-color: #667AFF;
+    }
+    .Contacts > i{
+        font-size: 30px;
+        color: #FFFFFE;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .Profile{
+        height: 12%;
+        width: 100%;
+        position: absolute;
+        top: 48%;
+    }
+    .Profile:hover{
+        background-color: #667AFF;
+    }
+    .Profile > i{
+        font-size: 30px;
+        color: #FFFFFE;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .Settings{
+        height: 12%;
+        width: 100%;
+        position: absolute;
+        top: 60%;
+    }
+    .Settings:hover{
+        background-color: #667AFF;
+    }
+    .Settings > i{
+        font-size: 30px;
+        color: #FFFFFE;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .Logout{
+        height: 12%;
+        width: 100%;
+        position: absolute;
+        bottom: 0%;
+    }
+    .Logout:hover{
+        background-color: #667AFF;
+    }
+    .Logout > i{
+        font-size: 30px;
+        color: #FFFFFE;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .second{
+        height: 100%;
+        width: 35%;
+        background-color: #FFFFFF;
+        position: absolute;
+        top: 0%;
+        left: 10%;
+    }
+    .second > input {
+        height: 6%;
+        width: 75%;
+        position: absolute;
+        top: 2%;
+        left: 5%;
+        padding: 0px 0px 0px 50px;
+        border-radius: 20px;
+        border: 1px solid black;
+        outline: none;
+    }
+    #search{
+        font-size: 20px;
+        position: absolute;
+        top: 2.7%;
+        left: 7%;
+    }
+    #plusicon{
+        font-size: 30px;
+        font-weight: 200;
+        position: absolute;
+        top: 1.6%;
+        right: 4%;
+        color: #6C80FF;
+    }
+    .Tokyo{
+        height: 12%;
+        width: 100%;
+        position: relative;
+        position: absolute;
+        top: 12%;
+        position: relative;
+    }
+    #tokyoimg{
+        height: 45px;
+        width: 45px;
+        object-fit: cover;
+        object-position: center;
+        border: none;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+    }
+    #tokyoh{
+        position: absolute;
+        top: 13%;
+        left: 23%;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    #tokyop{
+        position: absolute;
+        top: 60%;
+        left: 23%;
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .Tokyo:hover{
+        background-color: #efeff0;
+    }
+    .Theprofessor{
+        height: 12%;
+        width: 100%;
+        position: absolute;
+        top: 24%;
+    }
+    #Theprofessorimg{
+        height: 45px;
+        width: 45px;
+        object-fit: cover;
+        object-position: top;
+        border: none;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+    }
+    #Theprofessorh{
+        position: absolute;
+        top: 13%;
+        left: 23%;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    #Theprofessorp{
+        position: absolute;
+        top: 60%;
+        left: 23%;
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .Theprofessor:hover{
+        background-color: #efeff0;
+    }
+    .helsinki{
+        height: 12%;
+        width: 100%;
+        position: absolute;
+        top: 36%;
+    }
+    #helsinkiimg{
+        height: 45px;
+        width: 45px;
+        object-fit: cover;
+        object-position: top;
+        border: none;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+    }
+    #helsinkih{
+        position: absolute;
+        top: 13%;
+        left: 23%;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    #helsinkip{
+        position: absolute;
+        top: 60%;
+        left: 23%;
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .helsinki:hover{
+        background-color: #efeff0;
+    }
+    .nairobi{
+        height: 12%;
+        width: 100%;
+        position: absolute;
+        top: 48%;
+    }
+    #nairobiimg{
+        height: 45px;
+        width: 45px;
+        object-fit: cover;
+        object-position: top;
+        border: none;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+    }
+    #nairobih{
+        position: absolute;
+        top: 13%;
+        left: 23%;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    #nairobip{
+        position: absolute;
+        top: 60%;
+        left: 23%;
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .nairobi:hover{
+        background-color: #efeff0;
+    }
+    .denver{
+        height: 12%;
+        width: 100%;
+        position: absolute;
+        top: 60%;
+    }
+    #denverimg{
+        height: 45px;
+        width: 45px;
+        object-fit: cover;
+        object-position: top;
+        border: none;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+    }
+    #denverh{
+        position: absolute;
+        top: 13%;
+        left: 23%;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    #denverp{
+        position: absolute;
+        top: 60%;
+        left: 23%;
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .denver:hover{
+        background-color: #efeff0;
+    }
+    .oslo{
+        height: 12%;
+        width: 100%;
+        position: absolute;
+        top: 72%;
+    }
+    #osloimg{
+        height: 45px;
+        width: 45px;
+        object-fit: cover;
+        object-position: top;
+        border: none;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+    }
+    #osloh{
+        position: absolute;
+        top: 13%;
+        left: 23%;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    #oslop{
+        position: absolute;
+        top: 60%;
+        left: 23%;
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .oslo:hover{
+        background-color: #efeff0;
+    }
+    .raquel{
+        height: 12%;
+        width: 100%;
+        position: absolute;
+        top: 84%;
+    }
+    #raquelimg{
+        height: 45px;
+        width: 45px;
+        object-fit: cover;
+        object-position: top;
+        border: none;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+    }
+    #raquelh{
+        position: absolute;
+        top: 13%;
+        left: 23%;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    #raquelp{
+        position: absolute;
+        top: 60%;
+        left: 23%;
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .raquel:hover{
+        background-color: #efeff0;
+    }
+    .rio{
+        height: 4%;
+        width: 100%;
+        position: relative;
+        position: absolute;
+        top: 96%;
+    }
+    #rioimg{
+        height: 20px;
+        width: 20px;
+        object-fit: cover;
+        object-position: top;
+        border: none;
+        border-radius: 100%;
+        position: absolute;
+        top: 90%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+    }
+    #rioh{
+        position: absolute;
+        top: 20%;
+        left: 23%;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    #riop{
+        position: absolute;
+        top: 60%;
+        left: 23%;
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .rio:hover{
+        background-color: #efeff0;
+    }
+    .thrid{
+        height: 100%;
+        width: 55%;
+        background-color: #F3F3F5;
+        position: absolute;
+        top: 0%;
+        left: 45%;
+    }
+    .namediv{
+        height: 12%;
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+    #Theprofessorchatimg{
+        height: 40px;
+        width: 40px;
+        object-fit: cover;
+        object-position: top;
+        border: none;
+        border-radius: 50%;
+        position: absolute;
+        top: 6%;
+        left: 7%;
+        transform: translate(-50%, -50%);
+    }
+    #Theprofessorchat{
+        position: absolute;
+        top: 2%;
+        left: 15%;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    #Theprofessorchatp{
+        position: absolute;
+        top: 8%;
+        left: 16%;
+        font-size: 8px;
+        font-weight: 500;
+    }
+    #phonechat{
+        font-size: 20px;
+        position: absolute;
+        top: 4%;
+        right: 25%;
+        color: #BBBBBB;
+    }
+    #videochat{
+        font-size: 20px;
+        position: absolute;
+        top: 4%;
+        right: 15%;
+        color: #BBBBBB;
+    }
+    #threedot{
+        font-size: 20px;
+        position: absolute;
+        top: 4%;
+        right: 5%;
+        color: #BBBBBB;
+    }
+    .msgone{
+        height: 10%;
+        width: 40%;
+        background-color: #FFFFFF;
+        position: absolute;
+        top: 10%;
+        margin: 20px;
+        border: none;
+        border-radius: 0px 10px 10px 10px;
+    }
+    .msgone > p{
+        font-size: 10px;
+        padding: 10px;
+        font-weight: 500;
+    }
+    .msgtwo{
+        height: 16%;
+        width: 60%;
+        background-color: #57D7D3;
+        position: absolute;
+        top: 27%;
+        right: 20px;
+        border: none;
+        border-radius: 10px 0px 10px 10px;
+    }
+    .msgtwo > p{
+        font-size: 10px;
+        padding: 10px;
+        font-weight: 500;
+    }
+    .msgthree{
+        height: 8%;
+        width: 40%;
+        background-color: #FFFFFF;
+        position: absolute;
+        left: 20px;
+        top: 45%;
+        border: none;
+        border-radius: 0px 10px 10px 10px;
+    }
+    .msgthree > p{
+        font-size: 10px;
+        padding: 10px;
+        font-weight: 500;
+    }
+    .msgfour{
+        height: 15%;
+        width: 40%;
+        background-color: #FFFFFF;
+        position: absolute;
+        left: 20px;
+        top: 55%;
+        border: none;
+        border-radius: 0px 10px 10px 10px;
+    }
+    .msgfour > p{
+        font-size: 10px;
+        padding: 10px;
+        font-weight: 500;
+    }
+    .msgfive{
+        height: 14%;
+        width: 60%;
+        background-color: #57D7D3;
+        position: absolute;
+        right: 20px;
+        top: 74%;
+        border: none;
+        border-radius: 10px 0px 10px 10px;
+    }
+    .msgfive > p{
+        font-size: 10px;
+        padding: 10px;
+        font-weight: 500;
+    }
+    .messagediv{
+        height: 8%;
+        width: 100%;
+        background-color:#FFFFFF;
+        position: absolute;
+        bottom: 0%;
+    }
+    #link{
+        font-size: 18px;
+        position: absolute;
+        top: 18%;
+        left: 2%;
+        color: #BBBBBB;
+    }
+    #mic{
+        font-size: 18px;
+        position: absolute;
+        top: 18%;
+        left: 8%;
+        color: #BBBBBB;
+    }
+    #happy{
+        font-size: 18px;
+        position: absolute;
+        top: 18%;
+        left: 14%;
+        color: #BBBBBB;
+    }
+    .messagediv > input{
+        height: 90%;
+        width: 70%;
+        position: absolute;
+        left: 20%;
+        top: 5%;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        padding: 0px 0px 0px 20px;
+    }
+    #send{
+        font-size: 20px;
+        position: absolute;
+        top: 18%;
+        right: 3%;
+        color: #BBBBBB;
+    }
+    .overlay{
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.6) ;
+        position: absolute;
+        top: 0%;
+    }
+    .popup{
+        height: 50%;
+        width: 55%;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #F0F2F7;
+        border-radius: 15px;
+        border: none;
+    }
+    #invite{
+        font-size: 20px;
+        position: absolute;
+        top: 10%;
+        left: 7%;
+    }
+    #invitep{
+        font-size: 15px;
+        position: absolute;
+        top: 24%;
+        left: 7%;
+    }
+    .in{
+        height: 25px;
+        width: 40%;
+        position: absolute;
+        top: 50%;
+        left: 7%;
+        outline: none;
+        border: 1px solid black;
+        border-radius: 50px;
+        padding: 0px 0px 0px 20px;
+
+    }
+    .int{
+        height: 25px;
+        width: 40%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        outline: none;
+        border: 1px solid black;
+        border-radius: 50px;
+        padding: 0px 0px 0px 20px;
+    }
+    #inbb{
+        height: 30px;
+        width: 40%;
+        position: absolute;
+        top: 80%;
+        left: 7%;
+        border-radius: 5px;
+        border: none;
+        background-color: #2A2F4D;
+        color: #FFFFFE;
+        font-weight: 700;
+
+    }
+    #nothbb{
+        height: 30px;
+        width: 40%;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        border-radius: 5px;
+        border: 1px solid black;
+        background-color: #FFFFFE;
+        color: #2A2F4D;
+        font-weight: 700;
+    }
+
+
+
+
+
+
